@@ -1,0 +1,91 @@
+name: qalby
+description: Quran memorization playlist app — Temani Perjalanan Hafalanmu.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management — Riverpod v3 (code generation)
+  flutter_riverpod: ^3.0.2
+  riverpod_annotation: ^3.0.2
+
+  # Navigation
+  go_router: ^14.6.3
+
+  # Network
+  dio: ^5.7.0
+
+  # Local Storage
+  flutter_secure_storage: ^9.2.2
+  shared_preferences: ^2.3.3
+
+  # UI — Core
+  flutter_svg: ^2.0.10
+  cached_network_image: ^3.4.1
+  gap: ^3.0.1
+  google_fonts: ^6.2.1      # PlusJakartaSans + Amiri — download otomatis
+
+  # UI — Animasi
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.0
+
+  # UI — Loading skeleton otomatis
+  skeletonizer: ^2.0.0
+
+  # UI — Onboarding dots
+  smooth_page_indicator: ^1.2.0
+
+  # Islamic Date
+  hijri: any
+
+  # Audio — murotal playback
+  just_audio: ^0.9.40
+
+  # Auth — Google Sign-In (pure OAuth, no Firebase)
+  google_sign_in: ^6.2.1
+
+  # Location (untuk prayer time & qibla)
+  geolocator: ^13.0.2
+
+  # Prayer time calculation
+  adhan: ^2.0.0+1
+
+  # Compass / magnetometer untuk qibla
+  sensors_plus: ^4.0.2
+
+  # Timezone support untuk scheduled notifications
+  timezone: ^0.9.4
+
+  # Notifications
+  flutter_local_notifications: ^17.2.3
+
+  # Utility
+  intl: ^0.20.2
+  freezed_annotation: ^3.0.0
+  json_annotation: ^4.9.0
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.13
+  freezed: ^3.0.0
+  json_serializable: ^6.8.0
+  riverpod_generator: ^3.0.2
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/illustrations/
+    - assets/lottie/
+    - assets/images/
+
+  # Font files dihandle oleh google_fonts — tidak perlu deklarasi lokal

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "182949033056",
+    "project_id": "qalby-b4b71",
+    "storage_bucket": "qalby-b4b71.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182949033056:android:112743592f54c9c1d4ff05",
+        "android_client_info": {
+          "package_name": "com.qalby.qalby"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-b2hxXrNGDL2Iy5vn2vIaMpYD07M3d7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

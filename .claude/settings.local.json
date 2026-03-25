@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter:*)",
+      "Read(//Users/anonymous/flutter/bin/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//Users/anonymous/**)",
+      "mcp__plugin_context7_context7__resolve-library-id",
+      "mcp__plugin_context7_context7__query-docs",
+      "Bash(cd:*)",
+      "Bash(dart pub:*)",
+      "Bash(pod install:*)",
+      "Bash(docker compose:*)",
+      "Bash(docker --version)",
+      "Bash(docker-compose version:*)",
+      "Bash(docker-compose up:*)",
+      "Bash(docker-compose ps:*)",
+      "Bash(docker-compose build:*)",
+      "Bash(for f:*)",
+      "Bash(do)",
+      "Bash(sed -i '' 's/backgroundColor: AppColors\\\\.surface,/\\\\/\\\\/ backgroundColor adapts via theme/g' \"$f\")",
+      "Bash(done)",
+      "Bash(sed -i '' 's/color: AppColors\\\\.surfaceCard,/color: AppColors.bgCard\\(context\\),/g' /Users/anonymous/Documents/office/codinginid/qalby/app/mobile/lib/features/practice/presentation/pages/practice_page.dart)",
+      "Bash(__NEW_LINE_f54fb02fda6a3103__ sed:*)",
+      "Bash(find /Users/anonymous/Documents/office/codinginid/qalby/app/api/app/features -name \"router.py\" -exec basename {})",
+      "WebFetch(domain:quranapi.pages.dev)",
+      "Bash(ls:*)",
+      "Bash(python3 -c \"import ast; import pathlib; errs = []; [errs.append\\(f''{f}: {e}''\\) for f in pathlib.Path\\(''app''\\).rglob\\(''*.py''\\) if \\(e := None\\) is None and not \\(lambda: \\(ast.parse\\(f.read_text\\(\\)\\), None\\)[-1]\\)\\(\\) if False]; print\\(''All Python files parse OK''\\)\")",
+      "Bash(python3 -c \":*)"
+    ]
+  }
+}
